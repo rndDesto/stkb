@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Text render 1`] = `
+<div
+  className=""
+>
+  <label>
+    
+  </label>
+  <div
+    className=""
+  >
+    <input
+      className=""
+    />
+    
+  </div>
+  <span>
+    
+  </span>
+</div>
+`;

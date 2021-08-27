@@ -1,0 +1,49 @@
+.root {
+  appearance: none;
+  background: url(/assets/ic-expand.svg);
+  background-color: var(--palette-common-white);
+  background-position: calc(100% - 0.75rem);
+  background-repeat: no-repeat;
+  border: 0.0625rem solid var(--palette-text-light-2);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin-top: 0.625rem;
+  margin-bottom: 0.5rem;
+  outline: none;
+  padding: 0.75rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+}
+
+.root:not(.error):focus {
+  border-color: var(--palette-base-primary-main);
+  box-shadow: 0 0 0 0 .0625rem var(--palette-base-primary-main);
+  color: #333435;
+}
+
+.empty {
+  color: #b2b4b5;
+}
+
+.root.error {
+  border-color: var(--palette-textfield-error-main);
+}
+
+.root + small.error {
+  color: var(--palette-textfield-error-main);
+  display: block;
+  font-size: 0.75rem;
+}
+
+.label {
+  color: var(--palette-black-20);
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+.root > option:not(:first-child){ 
+  color: black;
+}

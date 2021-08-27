@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/DataButton isLoading 1`] = `
+<ForwardRef(WithStyles)
+  id=""
+  onClick={[Function]}
+>
+  Mengirim
+</ForwardRef(WithStyles)>
+`;
+
+exports[`src/components/elements/DataButton render 1`] = `
+<ForwardRef(WithStyles)
+  id=""
+  onClick={[Function]}
+/>
+`;

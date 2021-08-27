@@ -1,0 +1,48 @@
+.root > div {
+  align-items: center;
+  background-color: #FFFFFF;
+  border: 0.0625rem solid var(--palette-text-light-2);
+  border-radius: 0.25rem;
+  display: flex;
+  margin-top: 0.625rem;
+  padding: 0.75rem 1rem 0.75rem 0.5rem;
+  transition: border 0.25s;
+}
+
+.root > div.focus {
+  border-color: var(--palette-base-primary-main);
+}
+
+.root > label {
+  color: var(--palette-black-20);
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+.root > div > input {
+  border: none;
+  box-shadow: none;
+  color: var(--palette-black-10);
+  display: block;
+  flex: 1;
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.root > div > input::placeholder {
+  color: var(--palette-text-light-2);
+}
+
+.root > div > button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.root > div > button > img {
+  width: 100%;
+}

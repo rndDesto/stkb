@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/forms/Login render 1`] = `
+<form
+  onSubmit={[MockFunction]}
+>
+  <ForwardRef
+    component={[Function]}
+    inputProps={
+      Object {
+        "placeholder": "cth. admin@email.com",
+      }
+    }
+    label="Email"
+    name="email"
+  />
+  <ForwardRef
+    component={[Function]}
+    inputProps={
+      Object {
+        "placeholder": "Min. 6 karakter",
+      }
+    }
+    label="Kata Sandi"
+    name="password"
+  />
+  <p>
+    test
+  </p>
+  <Button
+    buttonProps={Object {}}
+    className=""
+    disabled={true}
+    onClick={[Function]}
+    onSubmit={[MockFunction]}
+  >
+    MASUK
+  </Button>
+</form>
+`;

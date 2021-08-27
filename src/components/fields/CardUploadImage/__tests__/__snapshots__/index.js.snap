@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/elements/CardUploadImage render 1`] = `
+<div
+  className=""
+>
+  <label>
+    
+  </label>
+  <div
+    className=""
+  >
+    <img
+      alt="icon image"
+      src="../../../assets/ic-default-image.svg"
+    />
+    <label>
+      <p>
+        Upload
+      </p>
+      <input
+        type="file"
+      />
+    </label>
+  </div>
+  <span>
+    
+  </span>
+</div>
+`;

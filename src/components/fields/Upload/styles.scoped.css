@@ -1,0 +1,60 @@
+.root > label {
+  color: var(--palette-black-20);
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+.root > div > label {
+  display: grid;
+  grid-template-columns: 1fr 0fr;
+}
+
+.root > div > label > input[type="file"] {
+  display: none;
+}
+
+.root > div > label > p {
+  padding: 7px;
+}
+
+.root > div > label > p:nth-child(2) {
+  align-items: center;
+  background: var(--palette-base-primary-main);
+  border-radius: 3px;
+  color: var(--palette-common-white);
+  display: flex;
+  justify-content: center;
+  padding: 7px 16px;
+  width: fit-content;
+
+}
+
+.root > div {
+  border: 0.0625rem solid var(--palette-text-light-2);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  color: var(--palette-black-10);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  margin-top: 0.625rem;
+  padding: 0.4rem;
+  width: 100%;
+  transition: border 0.25s;
+}
+
+.root.placeholder > label > p:first-child  {
+  color: var(--palette-text-light-2);
+}
+
+.root > .error {
+  border-color: var(--palette-textfield-error-main);
+}
+
+.root + small.error {
+  color: var(--palette-textfield-error-main);
+  display: block;
+  font-size: 0.75rem;
+}
