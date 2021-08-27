@@ -2,11 +2,11 @@
 - Clone project
 - Run `npm install`
 - Run `npm run dev`
-- Open `localhost:4000` in browser
+- Open `localhost:5001` in browser
 
 # Development
 - Run `npm run dev`
-- Open `localhost:4000` in browser
+- Open `localhost:5001` in browser
 
 # Testing
 - Run `npm test`
@@ -16,14 +16,14 @@
 # Production Build
 - Run `npm run build`
 - Run `npm start`
-- Open `localhost:4000` in browser
+- Open `localhost:5001` in browser
 
 # Staging Build
 - Run `npm run build:staging`
 - Run `npm start`
-- Open `localhost:4000` in browser
+- Open `localhost:5001` in browser
 
 # Development Build
 - Run `npm run build:development`
 - Run `npm start`
-- Open `localhost:4000` in browser
+- Open `localhost:5001` in browser
