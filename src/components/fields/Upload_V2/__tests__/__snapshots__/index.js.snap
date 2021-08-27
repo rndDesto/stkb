@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Upload render 1`] = `
+<div
+  className="true"
+>
+  <label>
+    
+  </label>
+  <div
+    className="true"
+  >
+    <label>
+      <p />
+      <div>
+        <img
+          alt="logee"
+          src="../../../assets/ic-upload.svg"
+        />
+      </div>
+      <input
+        type="file"
+      />
+    </label>
+  </div>
+  <span>
+    
+  </span>
+</div>
+`;
+
+exports[`src/components/fields/Upload render 2`] = `
+<div
+  className="true"
+>
+  <label>
+    
+  </label>
+  <div
+    className="true"
+  >
+    <label>
+      <p>
+        a
+      </p>
+      <div>
+        <img
+          alt="logee"
+          src="../../../assets/ic-upload.svg"
+        />
+      </div>
+      <input
+        type="file"
+      />
+    </label>
+  </div>
+  <span>
+    
+  </span>
+</div>
+`;

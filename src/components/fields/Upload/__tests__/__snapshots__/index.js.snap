@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`src/components/fields/Upload render 1`] = `
+<div
+  className=""
+>
+  <label>
+    
+  </label>
+  <div
+    className=""
+  >
+    <label>
+      <p>
+        Belum ada file dipilih
+      </p>
+      <p>
+        Upload
+      </p>
+      <input
+        type="file"
+      />
+    </label>
+  </div>
+  <span>
+    
+  </span>
+</div>
+`;
+
+exports[`src/components/fields/Upload render 2`] = `
+<div
+  className=""
+>
+  <label>
+    
+  </label>
+  <div
+    className=""
+  >
+    <label>
+      <p>
+        a
+      </p>
+      <p>
+        Upload
+      </p>
+      <input
+        type="file"
+      />
+    </label>
+  </div>
+  <span>
+    
+  </span>
+</div>
+`;

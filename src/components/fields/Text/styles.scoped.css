@@ -1,0 +1,71 @@
+.root {
+  margin-bottom: 0.5rem;
+}
+
+.root > label {
+  color: var(--palette-black-20);
+  font-size: 0.875rem;
+  line-height: 1rem;
+  font-weight: bold;
+}
+
+.root > input {
+  border: 0.0625rem solid var(--palette-text-light-2);
+  border-radius: 0.25rem;
+  box-shadow: none;
+  color: var(--palette-black-10);
+  display: block;
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin-top: 0.625rem;
+  padding: 0.75rem 0.5rem;
+  width: 100%;
+  transition: border 0.25s;
+}
+
+.root > input[type="date"] {
+  -webkit-appearance: none;
+  background: url(/assets/icon-date.svg);
+  background-position: calc(100% - 0.75rem);
+  background-repeat: no-repeat;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+
+input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button { 
+  display: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+  width: 0;
+  height: 0.2rem;
+  position: relative;
+  top: 0.1rem;
+  right: 0.2rem;
+  cursor: pointer;
+}
+
+
+.root > input:focus {
+  border-color: var(--palette-base-primary-main);
+}
+
+.root > input::placeholder {
+  color: var(--palette-text-light-2);
+}
+
+.root.error {
+  border-color: var(--palette-textfield-error-main);
+}
+
+.root + small.error {
+  color: var(--palette-textfield-error-main);
+  display: block;
+  font-size: 0.75rem;
+  margin-bottom: 0.5rem;
+}
