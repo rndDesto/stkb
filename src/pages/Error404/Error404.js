@@ -7,7 +7,7 @@ export default function Error404() {
     <section>
       <h2>Page not found</h2>
       <p>
-        <Link to={ROUTES.DASHBOARD()}>Back to home</Link>
+        <Link to={ROUTES.MOVIE()}>Back to home</Link>
       </p>
     </section>
   );

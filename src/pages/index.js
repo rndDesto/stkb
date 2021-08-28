@@ -10,5 +10,5 @@ const Suspensed = (Element) => function suspense(props) {
 
 export default {
   Error404: Suspensed(React.lazy(() => import('./Error404'))),
-  Login: Suspensed(React.lazy(() => import('./Login'))),
+  Movie: Suspensed(React.lazy(() => import('./Movie'))),
 };

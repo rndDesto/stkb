@@ -1,4 +1,4 @@
 export default {
-  DASHBOARD: () => { return `/`; },
-  LOGIN:() => { return `/login`; }
+  MOVIE:() => { return `/`; },
+  MOVIERESULT:() => { return `/result`; },
 };
