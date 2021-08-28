@@ -23,6 +23,7 @@
     "test:cover": "npm run test -- --coverage ",
     "test:cover:CI": "npm run test:CI -- --coverage && cat ./coverage/lcov.info | node_modules/coveralls/bin/coveralls.js",
     "test:watch": "jest --watch",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "author": "",
